@@ -6,55 +6,28 @@
 	objectVersion = 56;
 	objects = {
 
-/* Begin PBXContainerItemProxy section */
-		5923E0E529EDB54000B359C6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5923E0E129EDB54000B359C6 /* Storm Viewer.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 5923E0CA29EDB53F00B359C6;
-			remoteInfo = "Storm Viewer";
-		};
-		5923E15129EEA8E600B359C6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5923E14D29EEA8E500B359C6 /* Guess the flag.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 5923E13629EEA8E300B359C6;
-			remoteInfo = "Guess the flag";
-		};
-		59D37AD329F2D0D7002B8889 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 59D37ACF29F2D0D7002B8889 /* Easy Browser.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 59D37AB829F2D0D5002B8889;
-			remoteInfo = "Easy Browser";
-		};
-		59D37B4329F56918002B8889 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 59D37B3F29F56918002B8889 /* Word Scramble.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 59D37B2829F56917002B8889;
-			remoteInfo = "Word Scramble";
-		};
-		59D37B6B29F59127002B8889 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 59D37B6729F59127002B8889 /* Auto Layout.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 59D37B5029F59126002B8889;
-			remoteInfo = "Auto Layout";
-		};
-/* End PBXContainerItemProxy section */
+/* Begin PBXBuildFile section */
+		59D37B5429F59126002B8889 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D37B5329F59126002B8889 /* AppDelegate.swift */; };
+		59D37B5629F59126002B8889 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D37B5529F59126002B8889 /* SceneDelegate.swift */; };
+		59D37B5829F59126002B8889 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D37B5729F59126002B8889 /* ViewController.swift */; };
+		59D37B5B29F59126002B8889 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59D37B5929F59126002B8889 /* Main.storyboard */; };
+		59D37B5D29F59127002B8889 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59D37B5C29F59127002B8889 /* Assets.xcassets */; };
+		59D37B6029F59127002B8889 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59D37B5E29F59127002B8889 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5923E05529EAECFF00B359C6 /* Hacking with iOS UIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hacking with iOS UIKit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5923E0E129EDB54000B359C6 /* Storm Viewer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Storm Viewer.xcodeproj"; path = "Storm Viewer/Storm Viewer.xcodeproj"; sourceTree = "<group>"; };
-		5923E14D29EEA8E500B359C6 /* Guess the flag.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Guess the flag.xcodeproj"; path = "Guess the flag/Guess the flag.xcodeproj"; sourceTree = "<group>"; };
-		59D37ACF29F2D0D7002B8889 /* Easy Browser.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Easy Browser.xcodeproj"; path = "Easy Browser/Easy Browser.xcodeproj"; sourceTree = "<group>"; };
-		59D37B3F29F56918002B8889 /* Word Scramble.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Word Scramble.xcodeproj"; path = "Word Scramble/Word Scramble.xcodeproj"; sourceTree = "<group>"; };
-		59D37B6729F59127002B8889 /* Auto Layout.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Auto Layout.xcodeproj"; path = "Auto Layout/Auto Layout.xcodeproj"; sourceTree = "<group>"; };
+		59D37B5029F59126002B8889 /* Auto Layout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Auto Layout.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59D37B5329F59126002B8889 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		59D37B5529F59126002B8889 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		59D37B5729F59126002B8889 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		59D37B5A29F59126002B8889 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		59D37B5C29F59127002B8889 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		59D37B5F29F59127002B8889 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		59D37B6129F59127002B8889 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5923E05229EAECFF00B359C6 /* Frameworks */ = {
+		59D37B4D29F59126002B8889 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -64,102 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5923E04C29EAECFF00B359C6 = {
+		59D37B4729F59126002B8889 = {
 			isa = PBXGroup;
 			children = (
-				59D37B6729F59127002B8889 /* Auto Layout.xcodeproj */,
-				59D37B3F29F56918002B8889 /* Word Scramble.xcodeproj */,
-				59D37ACF29F2D0D7002B8889 /* Easy Browser.xcodeproj */,
-				5923E14D29EEA8E500B359C6 /* Guess the flag.xcodeproj */,
-				5923E0E129EDB54000B359C6 /* Storm Viewer.xcodeproj */,
-				5923E05629EAECFF00B359C6 /* Products */,
+				59D37B5229F59126002B8889 /* Auto Layout */,
+				59D37B5129F59126002B8889 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		5923E05629EAECFF00B359C6 /* Products */ = {
+		59D37B5129F59126002B8889 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5923E05529EAECFF00B359C6 /* Hacking with iOS UIKit.app */,
+				59D37B5029F59126002B8889 /* Auto Layout.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5923E0E229EDB54000B359C6 /* Products */ = {
+		59D37B5229F59126002B8889 /* Auto Layout */ = {
 			isa = PBXGroup;
 			children = (
-				5923E0E629EDB54000B359C6 /* Storm Viewer.app */,
+				59D37B5329F59126002B8889 /* AppDelegate.swift */,
+				59D37B5529F59126002B8889 /* SceneDelegate.swift */,
+				59D37B5729F59126002B8889 /* ViewController.swift */,
+				59D37B5929F59126002B8889 /* Main.storyboard */,
+				59D37B5C29F59127002B8889 /* Assets.xcassets */,
+				59D37B5E29F59127002B8889 /* LaunchScreen.storyboard */,
+				59D37B6129F59127002B8889 /* Info.plist */,
 			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		5923E14E29EEA8E500B359C6 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5923E15229EEA8E600B359C6 /* Guess the flag.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		59D37AD029F2D0D7002B8889 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				59D37AD429F2D0D7002B8889 /* Easy Browser.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		59D37B4029F56918002B8889 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				59D37B4429F56918002B8889 /* Word Scramble.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		59D37B6829F59127002B8889 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				59D37B6C29F59127002B8889 /* Auto Layout.app */,
-			);
-			name = Products;
+			path = "Auto Layout";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5923E05429EAECFF00B359C6 /* Hacking with iOS UIKit */ = {
+		59D37B4F29F59126002B8889 /* Auto Layout */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5923E06929EAED0000B359C6 /* Build configuration list for PBXNativeTarget "Hacking with iOS UIKit" */;
+			buildConfigurationList = 59D37B6429F59127002B8889 /* Build configuration list for PBXNativeTarget "Auto Layout" */;
 			buildPhases = (
-				5923E05129EAECFF00B359C6 /* Sources */,
-				5923E05229EAECFF00B359C6 /* Frameworks */,
-				5923E05329EAECFF00B359C6 /* Resources */,
+				59D37B4C29F59126002B8889 /* Sources */,
+				59D37B4D29F59126002B8889 /* Frameworks */,
+				59D37B4E29F59126002B8889 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Hacking with iOS UIKit";
-			productName = "Hacking with iOS UIKit";
-			productReference = 5923E05529EAECFF00B359C6 /* Hacking with iOS UIKit.app */;
+			name = "Auto Layout";
+			productName = "Auto Layout";
+			productReference = 59D37B5029F59126002B8889 /* Auto Layout.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5923E04D29EAECFF00B359C6 /* Project object */ = {
+		59D37B4829F59126002B8889 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					5923E05429EAECFF00B359C6 = {
+					59D37B4F29F59126002B8889 = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
 			};
-			buildConfigurationList = 5923E05029EAECFF00B359C6 /* Build configuration list for PBXProject "Hacking with iOS UIKit" */;
+			buildConfigurationList = 59D37B4B29F59126002B8889 /* Build configuration list for PBXProject "Auto Layout" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -167,98 +110,63 @@
 				en,
 				Base,
 			);
-			mainGroup = 5923E04C29EAECFF00B359C6;
-			productRefGroup = 5923E05629EAECFF00B359C6 /* Products */;
+			mainGroup = 59D37B4729F59126002B8889;
+			productRefGroup = 59D37B5129F59126002B8889 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 59D37B6829F59127002B8889 /* Products */;
-					ProjectRef = 59D37B6729F59127002B8889 /* Auto Layout.xcodeproj */;
-				},
-				{
-					ProductGroup = 59D37AD029F2D0D7002B8889 /* Products */;
-					ProjectRef = 59D37ACF29F2D0D7002B8889 /* Easy Browser.xcodeproj */;
-				},
-				{
-					ProductGroup = 5923E14E29EEA8E500B359C6 /* Products */;
-					ProjectRef = 5923E14D29EEA8E500B359C6 /* Guess the flag.xcodeproj */;
-				},
-				{
-					ProductGroup = 5923E0E229EDB54000B359C6 /* Products */;
-					ProjectRef = 5923E0E129EDB54000B359C6 /* Storm Viewer.xcodeproj */;
-				},
-				{
-					ProductGroup = 59D37B4029F56918002B8889 /* Products */;
-					ProjectRef = 59D37B3F29F56918002B8889 /* Word Scramble.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
-				5923E05429EAECFF00B359C6 /* Hacking with iOS UIKit */,
+				59D37B4F29F59126002B8889 /* Auto Layout */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		5923E0E629EDB54000B359C6 /* Storm Viewer.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = "Storm Viewer.app";
-			remoteRef = 5923E0E529EDB54000B359C6 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		5923E15229EEA8E600B359C6 /* Guess the flag.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = "Guess the flag.app";
-			remoteRef = 5923E15129EEA8E600B359C6 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		59D37AD429F2D0D7002B8889 /* Easy Browser.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = "Easy Browser.app";
-			remoteRef = 59D37AD329F2D0D7002B8889 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		59D37B4429F56918002B8889 /* Word Scramble.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = "Word Scramble.app";
-			remoteRef = 59D37B4329F56918002B8889 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		59D37B6C29F59127002B8889 /* Auto Layout.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = "Auto Layout.app";
-			remoteRef = 59D37B6B29F59127002B8889 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXResourcesBuildPhase section */
-		5923E05329EAECFF00B359C6 /* Resources */ = {
+		59D37B4E29F59126002B8889 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59D37B6029F59127002B8889 /* LaunchScreen.storyboard in Resources */,
+				59D37B5D29F59127002B8889 /* Assets.xcassets in Resources */,
+				59D37B5B29F59126002B8889 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5923E05129EAECFF00B359C6 /* Sources */ = {
+		59D37B4C29F59126002B8889 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59D37B5829F59126002B8889 /* ViewController.swift in Sources */,
+				59D37B5429F59126002B8889 /* AppDelegate.swift in Sources */,
+				59D37B5629F59126002B8889 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		59D37B5929F59126002B8889 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59D37B5A29F59126002B8889 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		59D37B5E29F59127002B8889 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59D37B5F29F59127002B8889 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		5923E06729EAED0000B359C6 /* Debug */ = {
+		59D37B6229F59127002B8889 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -318,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		5923E06829EAED0000B359C6 /* Release */ = {
+		59D37B6329F59127002B8889 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -372,16 +280,15 @@
 			};
 			name = Release;
 		};
-		5923E06A29EAED0000B359C6 /* Debug */ = {
+		59D37B6529F59127002B8889 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = NU7BU33S3Z;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Hacking with iOS UIKit/Info.plist";
+				INFOPLIST_FILE = "Auto Layout/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -392,7 +299,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nate995.Hacking-with-iOS-UIKit";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nate995.Auto-Layout";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -400,16 +307,15 @@
 			};
 			name = Debug;
 		};
-		5923E06B29EAED0000B359C6 /* Release */ = {
+		59D37B6629F59127002B8889 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = NU7BU33S3Z;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Hacking with iOS UIKit/Info.plist";
+				INFOPLIST_FILE = "Auto Layout/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -420,7 +326,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nate995.Hacking-with-iOS-UIKit";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nate995.Auto-Layout";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -431,25 +337,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5923E05029EAECFF00B359C6 /* Build configuration list for PBXProject "Hacking with iOS UIKit" */ = {
+		59D37B4B29F59126002B8889 /* Build configuration list for PBXProject "Auto Layout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5923E06729EAED0000B359C6 /* Debug */,
-				5923E06829EAED0000B359C6 /* Release */,
+				59D37B6229F59127002B8889 /* Debug */,
+				59D37B6329F59127002B8889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5923E06929EAED0000B359C6 /* Build configuration list for PBXNativeTarget "Hacking with iOS UIKit" */ = {
+		59D37B6429F59127002B8889 /* Build configuration list for PBXNativeTarget "Auto Layout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5923E06A29EAED0000B359C6 /* Debug */,
-				5923E06B29EAED0000B359C6 /* Release */,
+				59D37B6529F59127002B8889 /* Debug */,
+				59D37B6629F59127002B8889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 5923E04D29EAECFF00B359C6 /* Project object */;
+	rootObject = 59D37B4829F59126002B8889 /* Project object */;
 }
