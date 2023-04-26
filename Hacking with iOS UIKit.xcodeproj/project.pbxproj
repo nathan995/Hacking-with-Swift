@@ -42,6 +42,13 @@
 			remoteGlobalIDString = 59D37B5029F59126002B8889;
 			remoteInfo = "Auto Layout";
 		};
+		59D37BA129F96B6B002B8889 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59D37B9929F96B6A002B8889 /* Whitehouse Petitions.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 59D37B8229F96B69002B8889;
+			remoteInfo = "Whitehouse Petitions";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +58,7 @@
 		59D37ACF29F2D0D7002B8889 /* Easy Browser.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Easy Browser.xcodeproj"; path = "Easy Browser/Easy Browser.xcodeproj"; sourceTree = "<group>"; };
 		59D37B3F29F56918002B8889 /* Word Scramble.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Word Scramble.xcodeproj"; path = "Word Scramble/Word Scramble.xcodeproj"; sourceTree = "<group>"; };
 		59D37B6729F59127002B8889 /* Auto Layout.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Auto Layout.xcodeproj"; path = "Auto Layout/Auto Layout.xcodeproj"; sourceTree = "<group>"; };
+		59D37B9929F96B6A002B8889 /* Whitehouse Petitions.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Whitehouse Petitions.xcodeproj"; path = "Whitehouse Petitions/Whitehouse Petitions.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +75,7 @@
 		5923E04C29EAECFF00B359C6 = {
 			isa = PBXGroup;
 			children = (
+				59D37B9929F96B6A002B8889 /* Whitehouse Petitions.xcodeproj */,
 				59D37B6729F59127002B8889 /* Auto Layout.xcodeproj */,
 				59D37B3F29F56918002B8889 /* Word Scramble.xcodeproj */,
 				59D37ACF29F2D0D7002B8889 /* Easy Browser.xcodeproj */,
@@ -120,6 +129,14 @@
 			isa = PBXGroup;
 			children = (
 				59D37B6C29F59127002B8889 /* Auto Layout.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59D37B9A29F96B6A002B8889 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59D37BA229F96B6B002B8889 /* Whitehouse Petitions.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -188,6 +205,10 @@
 					ProjectRef = 5923E0E129EDB54000B359C6 /* Storm Viewer.xcodeproj */;
 				},
 				{
+					ProductGroup = 59D37B9A29F96B6A002B8889 /* Products */;
+					ProjectRef = 59D37B9929F96B6A002B8889 /* Whitehouse Petitions.xcodeproj */;
+				},
+				{
 					ProductGroup = 59D37B4029F56918002B8889 /* Products */;
 					ProjectRef = 59D37B3F29F56918002B8889 /* Word Scramble.xcodeproj */;
 				},
@@ -233,6 +254,13 @@
 			fileType = wrapper.application;
 			path = "Auto Layout.app";
 			remoteRef = 59D37B6B29F59127002B8889 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		59D37BA229F96B6B002B8889 /* Whitehouse Petitions.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "Whitehouse Petitions.app";
+			remoteRef = 59D37BA129F96B6B002B8889 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
