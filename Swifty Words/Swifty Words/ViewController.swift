@@ -82,6 +82,7 @@ class ViewController: UIViewController {
         //MARK: - Buttons View
         let buttonsView = UIView()
         buttonsView.translatesAutoresizingMaskIntoConstraints = false
+        buttonsView.layer.borderWidth = 1
         view.addSubview(buttonsView)
         
         NSLayoutConstraint.activate([
